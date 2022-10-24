@@ -8,8 +8,6 @@ files:
   visible: true
 - name: src/hotkitchen/data/Credentials.kt
   visible: true
-- name: src/hotkitchen/data/SignInCredentials.kt
-  visible: true
 - name: src/hotkitchen/data/ResponseStatus.kt
   visible: true
 - name: src/hotkitchen/database/DatabaseConfig.kt
@@ -43,4 +41,6 @@ files:
 - name: src/hotkitchen/database/MealTable.kt
   visible: true
 - name: src/hotkitchen/database/CategoryTable.kt
+  visible: true
+- name: src/hotkitchen/data/SignInCredentials.kt
   visible: true

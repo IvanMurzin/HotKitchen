@@ -1,696 +1,686 @@
 [1;31m
 Start test 1[0m
-a15:13:57.905 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
-»15:13:58.261 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
-Y15:13:58.266 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
-a15:13:58.275 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:58.275 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:58.275 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:58.275 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:58.276 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:58.276 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:58.276 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:58.276 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:58.276 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:58.277 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:58.277 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:58.277 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:58.277 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:58.278 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:58.278 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:58.278 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:58.278 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:58.278 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:58.278 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:58.279 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:58.279 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:58.279 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:58.279 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:58.279 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:58.279 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:58.279 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:58.280 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
-a15:13:58.280 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:58.280 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:58.280 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:58.280 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:58.280 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:58.280 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:58.281 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:58.281 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:58.283 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
-a15:13:58.284 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:58.284 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:58.284 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:58.285 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:58.285 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:58.285 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:58.285 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:58.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:58.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:58.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:58.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:58.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:58.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:58.286 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:58.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:58.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:58.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:58.287 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:58.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:58.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:58.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:58.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:58.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:58.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:58.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:58.288 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:58.289 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
-a15:13:58.289 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:58.289 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:58.289 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:58.289 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:58.289 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:58.289 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:58.290 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:58.290 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:58.291 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
-‡15:13:58.370 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6976e2ad
-^15:13:58.371 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
-Â15:13:58.394 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-1 - Executed rollback on connection org.postgresql.jdbc.PgConnection@6976e2ad due to dirty commit state on close().
-•15:13:58.450 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@6976e2ad
-I15:13:58.450 [main] INFO ktor.test - Application started in 0.6 seconds.
-“15:13:58.473 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
-¡15:13:58.482 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@48d9c929
-¡15:13:58.501 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@461e3e42
- 15:13:58.513 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+h[0;34m23:08:03.418 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
+Æ[0m[0;34m23:08:03.626 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
+d[0m[0;34m23:08:03.630 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+l[0m[0;34m23:08:03.632 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:03.632 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:03.632 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:03.633 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:03.633 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:03.633 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:03.633 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:03.633 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:03.633 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:03.634 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:03.634 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:03.634 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:03.634 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:03.634 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:03.634 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:03.634 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:03.634 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:03.634 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+l[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:03.635 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:03.636 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:03.636 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:03.636 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:03.636 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:03.636 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:03.636 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:03.637 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+l[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:03.638 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:03.639 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:03.639 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:03.639 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:03.639 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:03.639 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:03.639 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:03.639 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:03.639 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:03.639 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+l[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:03.640 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:03.641 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:03.641 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:03.641 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:03.641 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+’[0m[0;34m23:08:03.698 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@33544f54
+i[0m[0;34m23:08:03.699 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+Í[0m[0;34m23:08:03.711 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-1 - Executed rollback on connection org.postgresql.jdbc.PgConnection@33544f54 due to dirty commit state on close().
+ [0m[0;34m23:08:03.752 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@33544f54
+V[0m[0;34m23:08:03.752 [main] INFO ktor.test - Application started in 0.359 seconds.
+š[0;34m23:08:03.804 [HikariPool-1 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+¨[0;34m23:08:03.809 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@593d5472
+¬[0m[0;34m23:08:03.826 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57fab125
+«[0m[0;34m23:08:03.839 [HikariPool-1 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
 [1;31m
 Start test 2[0m
-a15:13:58.640 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
-»15:13:58.643 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
-Y15:13:58.643 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-2 - configuration:
-a15:13:58.645 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:58.645 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:58.645 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:58.645 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:58.645 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:58.645 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:58.645 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:58.645 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:58.645 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:58.646 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:58.646 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:58.646 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:58.646 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:58.646 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:58.646 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:58.646 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:58.646 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:58.646 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:58.646 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:58.647 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:58.647 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:58.647 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:58.647 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:58.647 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:58.647 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:58.647 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:58.647 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-2"
-a15:13:58.648 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:58.648 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:58.648 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:58.648 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:58.648 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:58.648 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:58.648 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:58.648 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:58.648 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-2 - configuration:
-a15:13:58.649 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:58.649 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:58.650 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:58.650 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:58.650 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:58.651 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:58.651 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:58.651 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:58.651 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:58.651 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:58.651 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:58.652 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:58.652 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:58.652 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:58.652 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:58.652 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:58.652 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:58.652 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-2"
-a15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:58.653 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:58.654 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:58.654 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:58.654 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:58.654 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:58.654 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:58.654 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:58.654 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
-‡15:13:58.660 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@7164a30b
-^15:13:58.661 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
-Â15:13:58.661 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-2 - Executed rollback on connection org.postgresql.jdbc.PgConnection@7164a30b due to dirty commit state on close().
-•15:13:58.667 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@7164a30b
-K15:13:58.668 [main] INFO ktor.test - Application started in 0.028 seconds.
+h[0;34m23:08:03.848 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
+Æ[0m[0;34m23:08:03.849 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
+d[0m[0;34m23:08:03.849 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-2 - configuration:
+l[0m[0;34m23:08:03.850 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:03.850 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:03.850 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:03.850 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:03.850 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:03.850 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:03.850 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:03.851 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:03.851 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:03.851 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:03.851 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:03.851 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:03.851 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:03.851 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:03.851 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:03.851 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:03.851 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-2"
+l[0m[0;34m23:08:03.852 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:03.853 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:03.853 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:03.853 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:03.853 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:03.853 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:03.853 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:03.853 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:03.854 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-2 - configuration:
+l[0m[0;34m23:08:03.855 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:03.855 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:03.855 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:03.855 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:03.855 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:03.855 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:03.855 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:03.855 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:03.855 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:03.856 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-2"
+l[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:03.857 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:03.857 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Starting...
+’[0m[0;34m23:08:03.864 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@43866430
+i[0m[0;34m23:08:03.864 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-2 - Start completed.
+Í[0m[0;34m23:08:03.864 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-2 - Executed rollback on connection org.postgresql.jdbc.PgConnection@43866430 due to dirty commit state on close().
+ [0m[0;34m23:08:03.869 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-2 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@43866430
+V[0m[0;34m23:08:03.869 [main] INFO ktor.test - Application started in 0.021 seconds.
 [1;31m
 Start test 3[0m
-a15:13:58.691 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
-»15:13:58.692 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
-Y15:13:58.692 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-3 - configuration:
-a15:13:58.694 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:58.694 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:58.694 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:58.694 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:58.694 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:58.694 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:58.694 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:58.694 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:58.695 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:58.695 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:58.695 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:58.695 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:58.695 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:58.695 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:58.695 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:58.695 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:58.695 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:58.695 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-3"
-a15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:58.696 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:58.697 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:58.697 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:58.697 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:58.697 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-3 - configuration:
-a15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:58.698 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-3"
-a15:13:58.699 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:58.700 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:58.700 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:58.700 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:58.700 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:58.700 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:58.700 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:58.700 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:58.700 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
-‡15:13:58.706 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@4c3372f2
-^15:13:58.707 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
-Â15:13:58.708 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-3 - Executed rollback on connection org.postgresql.jdbc.PgConnection@4c3372f2 due to dirty commit state on close().
-•15:13:58.714 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-3 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@4c3372f2
-K15:13:58.714 [main] INFO ktor.test - Application started in 0.023 seconds.
-ã15:13:58.740 [DefaultDispatcher-worker-3 @request#81] DEBUG Exposed - SELECT credentials.id, credentials.email, credentials."userType", credentials."password" FROM credentials WHERE credentials.email = '1657714437663@mail.com'
-·15:13:58.743 [DefaultDispatcher-worker-3 @request#81] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-3 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@4c3372f2
-“15:13:58.761 [HikariPool-2 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Pool stats (total=1, active=0, idle=1, waiting=0)
-ú15:13:58.768 [DefaultDispatcher-worker-3 @request#81] DEBUG Exposed - INSERT INTO credentials (email, id, "password", "userType") VALUES ('1657714437663@mail.com', 'd30d21f0-c9e3-4e55-8020-bf91a85124e4', '736f1d18c3af44b61a50be4bbefbeddc', 'client')
-¡15:13:58.776 [HikariPool-2 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@25e0a249
-·15:13:58.779 [DefaultDispatcher-worker-3 @request#81] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-3 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@4c3372f2
-¡15:13:58.797 [HikariPool-2 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@2b275885
- 15:13:58.809 [HikariPool-2 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - After adding stats (total=3, active=0, idle=3, waiting=0)
-“15:13:58.812 [HikariPool-3 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=1, active=0, idle=1, waiting=0)
-¡15:13:58.819 [HikariPool-3 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@1d174d31
-¡15:13:58.838 [HikariPool-3 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@13d0b0e3
- 15:13:58.851 [HikariPool-3 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - After adding stats (total=3, active=0, idle=3, waiting=0)
+h[0;34m23:08:03.893 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
+Æ[0m[0;34m23:08:03.894 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
+d[0m[0;34m23:08:03.894 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-3 - configuration:
+l[0m[0;34m23:08:03.895 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:03.895 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:03.895 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:03.895 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:03.895 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:03.895 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:03.896 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:03.896 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:03.896 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:03.896 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:03.896 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:03.896 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:03.896 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:03.896 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:03.896 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:03.896 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-3"
+l[0m[0;34m23:08:03.897 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-3 - configuration:
+l[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:03.898 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:03.899 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-3"
+l[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:03.900 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:03.900 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Starting...
+’[0m[0;34m23:08:03.907 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@37d996f1
+i[0m[0;34m23:08:03.907 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-3 - Start completed.
+Í[0m[0;34m23:08:03.908 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-3 - Executed rollback on connection org.postgresql.jdbc.PgConnection@37d996f1 due to dirty commit state on close().
+ [0m[0;34m23:08:03.914 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-3 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@37d996f1
+V[0m[0;34m23:08:03.914 [main] INFO ktor.test - Application started in 0.021 seconds.
+ê[0;34m23:08:03.935 [DefaultDispatcher-worker-2 @request#81] DEBUG Exposed - SELECT credentials.id, credentials.email, credentials."userType", credentials."password" FROM credentials WHERE credentials.email = '1666642083298@mail.com'
+Â[0m[0;34m23:08:03.936 [DefaultDispatcher-worker-2 @request#81] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-3 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@37d996f1
+…[0m[0;34m23:08:03.944 [DefaultDispatcher-worker-2 @request#81] DEBUG Exposed - INSERT INTO credentials (email, id, "password", "userType") VALUES ('1666642083298@mail.com', 'f303fe77-635f-4d75-a6b3-6b012d38a9da', 'ad4e62754350e00905a4614875ae0073', 'client')
+Â[0m[0;34m23:08:03.945 [DefaultDispatcher-worker-2 @request#81] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-3 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@37d996f1
+š[0;34m23:08:03.968 [HikariPool-2 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Pool stats (total=1, active=0, idle=1, waiting=0)
+¨[0;34m23:08:03.974 [HikariPool-2 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@6913825a
 [1;31m
 Start test 4[0m
-a15:13:58.930 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
-»15:13:58.932 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
-Y15:13:58.933 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-4 - configuration:
-a15:13:58.934 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:58.934 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:58.935 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:58.935 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:58.935 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:58.935 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:58.935 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:58.935 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:58.935 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:58.935 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:58.935 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:58.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:58.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:58.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:58.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:58.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:58.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:58.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:58.936 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:58.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:58.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:58.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:58.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:58.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:58.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:58.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:58.937 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-4"
-a15:13:58.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:58.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:58.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:58.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:58.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:58.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:58.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:58.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:58.938 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-4 - configuration:
-a15:13:58.939 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:58.939 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:58.940 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:58.940 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:58.940 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:58.940 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:58.940 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:58.940 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:58.940 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:58.940 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:58.941 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:58.941 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:58.941 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:58.941 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:58.941 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:58.941 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:58.941 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:58.941 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:58.942 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:58.942 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:58.942 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:58.942 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:58.942 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:58.942 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:58.942 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:58.942 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:58.942 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-4"
-a15:13:58.943 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:58.943 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:58.943 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:58.943 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:58.943 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:58.943 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:58.943 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:58.943 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:58.944 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
-‡15:13:58.951 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@1803c69b
-^15:13:58.952 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
-Â15:13:58.953 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-4 - Executed rollback on connection org.postgresql.jdbc.PgConnection@1803c69b due to dirty commit state on close().
-•15:13:58.959 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@1803c69b
-J15:13:58.959 [main] INFO ktor.test - Application started in 0.03 seconds.
-ã15:13:58.966 [DefaultDispatcher-worker-2 @request#85] DEBUG Exposed - SELECT credentials.id, credentials.email, credentials."userType", credentials."password" FROM credentials WHERE credentials.email = '1657714437663@mail.com'
-·15:13:58.969 [DefaultDispatcher-worker-2 @request#85] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@1803c69b
+h[0;34m23:08:03.977 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
+Æ[0m[0;34m23:08:03.978 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
+d[0m[0;34m23:08:03.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-4 - configuration:
+l[0m[0;34m23:08:03.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:03.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:03.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:03.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:03.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:03.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:03.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:03.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-4"
+l[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:03.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:03.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:03.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:03.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:03.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:03.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-4 - configuration:
+l[0m[0;34m23:08:03.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:03.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:03.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:03.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:03.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:03.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:03.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:03.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:03.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:03.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:03.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:03.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:03.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:03.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-4"
+l[0m[0;34m23:08:03.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:03.985 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:03.985 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:03.985 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:03.985 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:03.985 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:03.985 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:03.985 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:03.985 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Starting...
+¬[0m[0;34m23:08:03.997 [HikariPool-2 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - Added connection org.postgresql.jdbc.PgConnection@67d47108
+’[0m[0;34m23:08:03.998 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@4593a58b
+i[0m[0;34m23:08:03.998 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-4 - Start completed.
+Í[0m[0;34m23:08:03.998 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-4 - Executed rollback on connection org.postgresql.jdbc.PgConnection@4593a58b due to dirty commit state on close().
+ [0m[0;34m23:08:04.003 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@4593a58b
+V[0m[0;34m23:08:04.003 [main] INFO ktor.test - Application started in 0.026 seconds.
+ê[0;34m23:08:04.006 [DefaultDispatcher-worker-3 @request#85] DEBUG Exposed - SELECT credentials.id, credentials.email, credentials."userType", credentials."password" FROM credentials WHERE credentials.email = '1666642083298@mail.com'
+Â[0m[0;34m23:08:04.008 [DefaultDispatcher-worker-3 @request#85] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-4 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@4593a58b
 [1;31m
 Start test 5[0m
-a15:13:58.976 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
-»15:13:58.977 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
-Y15:13:58.978 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-5 - configuration:
-a15:13:58.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:58.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:58.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:58.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:58.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:58.979 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:58.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:58.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:58.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:58.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:58.980 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:58.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:58.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:58.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:58.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:58.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:58.981 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:58.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:58.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:58.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:58.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:58.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:58.982 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:58.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:58.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:58.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:58.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-5"
-a15:13:58.983 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:58.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:58.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:58.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:58.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:58.984 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:58.985 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:58.985 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:58.985 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-5 - configuration:
-a15:13:58.987 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:58.987 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:58.987 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:58.988 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:58.988 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:58.988 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:58.988 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:58.989 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:58.989 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:58.989 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:58.989 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:58.989 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:58.989 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:58.989 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:58.989 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:58.990 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:58.990 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:58.990 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:58.990 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:58.991 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:58.991 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:58.991 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:58.991 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:58.991 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:58.991 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:58.992 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:58.992 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-5"
-a15:13:58.992 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:58.992 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:58.992 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:58.992 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:58.992 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:58.993 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:58.993 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:58.993 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:58.993 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
-†15:13:59.001 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@1bcd12a
-^15:13:59.001 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
-Á15:13:59.002 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-5 - Executed rollback on connection org.postgresql.jdbc.PgConnection@1bcd12a due to dirty commit state on close().
-”15:13:59.010 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@1bcd12a
-K15:13:59.011 [main] INFO ktor.test - Application started in 0.035 seconds.
-ç15:13:59.022 [DefaultDispatcher-worker-1 @request#89] DEBUG Exposed - SELECT credentials.id, credentials.email, credentials."userType", credentials."password" FROM credentials WHERE credentials.email = 'why?does?this?email?exists'
-¶15:13:59.024 [DefaultDispatcher-worker-1 @request#89] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@1bcd12a
-ã15:13:59.030 [DefaultDispatcher-worker-2 @request#93] DEBUG Exposed - SELECT credentials.id, credentials.email, credentials."userType", credentials."password" FROM credentials WHERE credentials.email = '1657714437663@mail.com'
-¶15:13:59.031 [DefaultDispatcher-worker-2 @request#93] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@1bcd12a
+«[0m[0;34m23:08:04.010 [HikariPool-2 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-2 - After adding stats (total=3, active=0, idle=3, waiting=0)
+š[0;34m23:08:04.010 [HikariPool-3 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Pool stats (total=1, active=0, idle=1, waiting=0)
+h[0;34m23:08:04.011 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
+Æ[0m[0;34m23:08:04.012 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
+d[0m[0;34m23:08:04.012 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-5 - configuration:
+l[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:04.013 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-5"
+l[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:04.014 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-5 - configuration:
+l[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:04.015 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-5"
+l[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:04.016 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:04.017 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Starting...
+§[0;34m23:08:04.017 [HikariPool-3 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@94816b8
+’[0m[0;34m23:08:04.022 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@5e84b5f7
+i[0m[0;34m23:08:04.022 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-5 - Start completed.
+Í[0m[0;34m23:08:04.023 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-5 - Executed rollback on connection org.postgresql.jdbc.PgConnection@5e84b5f7 due to dirty commit state on close().
+ [0m[0;34m23:08:04.028 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@5e84b5f7
+V[0m[0;34m23:08:04.029 [main] INFO ktor.test - Application started in 0.018 seconds.
+ò[0m[0;34m23:08:04.038 [DefaultDispatcher-worker-3 @request#89] DEBUG Exposed - SELECT credentials.id, credentials.email, credentials."userType", credentials."password" FROM credentials WHERE credentials.email = 'why?does?this?email?exists'
+«[0m[0;34m23:08:04.038 [HikariPool-3 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - Added connection org.postgresql.jdbc.PgConnection@78fe9e1
+Â[0m[0;34m23:08:04.038 [DefaultDispatcher-worker-3 @request#89] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@5e84b5f7
+ê[0;34m23:08:04.041 [DefaultDispatcher-worker-1 @request#93] DEBUG Exposed - SELECT credentials.id, credentials.email, credentials."userType", credentials."password" FROM credentials WHERE credentials.email = '1666642083298@mail.com'
+Â[0m[0;34m23:08:04.042 [DefaultDispatcher-worker-1 @request#93] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-5 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@5e84b5f7
 [1;31m
 Start test 6[0m
-a15:13:59.042 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
-»15:13:59.044 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
-Y15:13:59.045 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-6 - configuration:
-a15:13:59.046 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:59.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:59.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:59.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:59.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:59.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:59.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:59.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:59.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:59.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:59.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:59.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:59.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:59.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:59.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:59.050 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:59.050 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:59.050 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:59.050 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:59.050 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:59.050 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:59.050 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:59.051 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:59.051 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:59.051 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:59.051 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:59.052 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-6"
-a15:13:59.052 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:59.052 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:59.052 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:59.052 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:59.053 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:59.053 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:59.053 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:59.054 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:59.054 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-6 - configuration:
-a15:13:59.056 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:59.056 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:59.056 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-“15:13:59.057 [HikariPool-4 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Pool stats (total=1, active=0, idle=1, waiting=0)
-`15:13:59.058 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:59.058 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:59.059 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:59.061 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:59.061 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:59.061 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:59.061 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:59.062 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:59.062 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:59.062 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:59.062 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:59.063 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:59.063 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-¡15:13:59.064 [HikariPool-4 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@555ab14c
-a15:13:59.064 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:59.065 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:59.065 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:59.065 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:59.066 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:59.066 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:59.066 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:59.066 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:59.066 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:59.066 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:59.066 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-6"
-a15:13:59.067 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:59.067 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:59.067 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:59.067 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:59.067 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:59.067 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:59.067 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:59.068 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:59.068 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
-‡15:13:59.076 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@65efcf03
-^15:13:59.077 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
-Â15:13:59.078 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-6 - Executed rollback on connection org.postgresql.jdbc.PgConnection@65efcf03 due to dirty commit state on close().
-•15:13:59.093 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-6 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@65efcf03
-K15:13:59.094 [main] INFO ktor.test - Application started in 0.052 seconds.
-¡15:13:59.097 [HikariPool-4 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@5b9d4597
-ã15:13:59.099 [DefaultDispatcher-worker-1 @request#97] DEBUG Exposed - SELECT credentials.id, credentials.email, credentials."userType", credentials."password" FROM credentials WHERE credentials.email = '1657714437663@mail.com'
-·15:13:59.102 [DefaultDispatcher-worker-1 @request#97] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-6 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@65efcf03
-“15:13:59.104 [HikariPool-5 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Pool stats (total=1, active=0, idle=1, waiting=0)
- 15:13:59.108 [HikariPool-4 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - After adding stats (total=3, active=0, idle=3, waiting=0)
+h[0;34m23:08:04.045 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
+Æ[0m[0;34m23:08:04.046 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
+d[0m[0;34m23:08:04.046 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-6 - configuration:
+l[0m[0;34m23:08:04.046 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:04.046 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:04.046 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:04.046 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:04.046 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:04.046 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-6"
+l[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:04.047 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-6 - configuration:
+l[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:04.048 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-6"
+l[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:04.049 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:04.049 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Starting...
+«[0m[0;34m23:08:04.050 [HikariPool-3 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-3 - After adding stats (total=3, active=0, idle=3, waiting=0)
+’[0m[0;34m23:08:04.054 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@77b91cfd
+i[0m[0;34m23:08:04.054 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-6 - Start completed.
+Í[0m[0;34m23:08:04.054 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-6 - Executed rollback on connection org.postgresql.jdbc.PgConnection@77b91cfd due to dirty commit state on close().
+ [0m[0;34m23:08:04.059 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-6 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@77b91cfd
+V[0m[0;34m23:08:04.060 [main] INFO ktor.test - Application started in 0.015 seconds.
+î[0m[0;34m23:08:04.062 [DefaultDispatcher-worker-1 @request#97] DEBUG Exposed - SELECT credentials.id, credentials.email, credentials."userType", credentials."password" FROM credentials WHERE credentials.email = '1666642083298@mail.com'
+Â[0m[0;34m23:08:04.063 [DefaultDispatcher-worker-1 @request#97] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-6 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@77b91cfd
 [1;31m
 Start test 7[0m
-¡15:13:59.114 [HikariPool-5 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@66070151
-a15:13:59.115 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
-»15:13:59.117 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
-Y15:13:59.118 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-7 - configuration:
-a15:13:59.119 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:59.120 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:59.120 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:59.120 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:59.120 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:59.120 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:59.121 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:59.121 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:59.121 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:59.121 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:59.121 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:59.122 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:59.122 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:59.122 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:59.122 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:59.122 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:59.122 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:59.122 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:59.123 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:59.123 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:59.123 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:59.123 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:59.123 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:59.123 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:59.123 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:59.124 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:59.124 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-7"
-a15:13:59.124 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:59.124 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:59.124 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:59.124 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:59.124 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:59.124 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:59.125 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:59.125 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:59.125 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-7 - configuration:
-a15:13:59.126 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:59.126 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:59.126 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:59.126 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:59.126 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:59.127 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:59.127 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:59.127 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:59.127 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:59.127 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:59.127 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:59.127 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:59.128 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:59.128 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:59.128 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:59.128 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:59.128 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:59.129 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:59.129 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:59.129 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:59.129 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:59.129 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:59.130 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:59.130 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:59.130 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:59.130 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:59.131 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-7"
-a15:13:59.131 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:59.131 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:59.131 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:59.131 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:59.131 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:59.132 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:59.132 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:59.132 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:59.132 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
-¡15:13:59.135 [HikariPool-5 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@68c0e3e1
-‡15:13:59.140 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@3ad3b791
-^15:13:59.141 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
-Â15:13:59.142 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-7 - Executed rollback on connection org.postgresql.jdbc.PgConnection@3ad3b791 due to dirty commit state on close().
- 15:13:59.148 [HikariPool-5 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - After adding stats (total=3, active=0, idle=3, waiting=0)
-•15:13:59.149 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-7 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@3ad3b791
-K15:13:59.149 [main] INFO ktor.test - Application started in 0.034 seconds.
-“15:13:59.182 [HikariPool-6 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Pool stats (total=1, active=0, idle=1, waiting=0)
+h[0;34m23:08:04.070 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
+Æ[0m[0;34m23:08:04.071 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
+d[0m[0;34m23:08:04.071 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-7 - configuration:
+l[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:04.072 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-7"
+l[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-7 - configuration:
+l[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:04.073 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-7"
+l[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:04.074 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:04.074 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Starting...
+’[0m[0;34m23:08:04.080 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@153c7ff7
+i[0m[0;34m23:08:04.080 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-7 - Start completed.
+Í[0m[0;34m23:08:04.080 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-7 - Executed rollback on connection org.postgresql.jdbc.PgConnection@153c7ff7 due to dirty commit state on close().
+ [0m[0;34m23:08:04.085 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-7 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@153c7ff7
+V[0m[0;34m23:08:04.085 [main] INFO ktor.test - Application started in 0.015 seconds.
 [1;31m
 Start test 8[0m
-¡15:13:59.199 [HikariPool-6 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@5525a01d
-a15:13:59.200 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
-»15:13:59.201 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
-Y15:13:59.202 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-8 - configuration:
-a15:13:59.202 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:59.203 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:59.203 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:59.203 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:59.203 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:59.203 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:59.203 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:59.203 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:59.203 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:59.203 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:59.204 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:59.204 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:59.204 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:59.204 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:59.204 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:59.204 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:59.204 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:59.204 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:59.204 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:59.205 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:59.205 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:59.205 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:59.205 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:59.205 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:59.205 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-d15:13:59.205 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:59.205 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-8"
-a15:13:59.205 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:59.205 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:59.206 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:59.206 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:59.206 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:59.206 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:59.206 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:59.206 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:59.206 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-8 - configuration:
-a15:13:59.207 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
-a15:13:59.207 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
-`15:13:59.208 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
-`15:13:59.208 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
-`15:13:59.209 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
-a15:13:59.209 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
-`15:13:59.211 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
-`15:13:59.211 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
-`15:13:59.211 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
-o15:13:59.212 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
-s15:13:59.213 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
-`15:13:59.214 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
-^15:13:59.215 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
-`15:13:59.216 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
-b15:13:59.216 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
-]15:13:59.217 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
-a15:13:59.219 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
-~15:13:59.220 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
-]15:13:59.220 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
-]15:13:59.221 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
-c15:13:59.221 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
-]15:13:59.222 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
-`15:13:59.222 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
-`15:13:59.223 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
-]15:13:59.223 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
-¡15:13:59.223 [HikariPool-6 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - Added connection org.postgresql.jdbc.PgConnection@5be254c9
-d15:13:59.223 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
-j15:13:59.224 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-8"
-a15:13:59.225 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
-a15:13:59.225 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
-`15:13:59.226 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
-`15:13:59.226 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
-d15:13:59.227 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
-y15:13:59.227 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
-f15:13:59.228 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
-`15:13:59.229 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
-Y15:13:59.229 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
- 15:13:59.236 [HikariPool-6 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-6 - After adding stats (total=3, active=0, idle=3, waiting=0)
-†15:13:59.237 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@3bdc48b
-^15:13:59.237 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
-Á15:13:59.238 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-8 - Executed rollback on connection org.postgresql.jdbc.PgConnection@3bdc48b due to dirty commit state on close().
-“15:13:59.243 [HikariPool-7 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Pool stats (total=1, active=0, idle=1, waiting=0)
-”15:13:59.245 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-8 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@3bdc48b
-K15:13:59.245 [main] INFO ktor.test - Application started in 0.045 seconds.
-¡15:13:59.257 [HikariPool-7 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@1fae44d5
-¡15:13:59.277 [HikariPool-7 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - Added connection org.postgresql.jdbc.PgConnection@1169b950
- 15:13:59.290 [HikariPool-7 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-7 - After adding stats (total=3, active=0, idle=3, waiting=0)
+h[0;34m23:08:04.103 [main] INFO ktor.test - Autoreload is disabled because the development mode is off.
+š[0;34m23:08:04.103 [HikariPool-4 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Pool stats (total=1, active=0, idle=1, waiting=0)
+Æ[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - Driver class org.postgresql.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@6b95977
+d[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-8 - configuration:
+l[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:04.104 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+o[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-8"
+l[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:04.105 [main] DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-8 - configuration:
+l[0m[0;34m23:08:04.106 [main] DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+l[0m[0;34m23:08:04.106 [main] DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................false
+k[0m[0;34m23:08:04.106 [main] DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+k[0m[0;34m23:08:04.106 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+k[0m[0;34m23:08:04.106 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+l[0m[0;34m23:08:04.106 [main] DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+k[0m[0;34m23:08:04.107 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+k[0m[0;34m23:08:04.107 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+k[0m[0;34m23:08:04.107 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+z[0m[0;34m23:08:04.107 [main] DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+~[0m[0;34m23:08:04.107 [main] DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."org.postgresql.Driver"
+k[0m[0;34m23:08:04.107 [main] DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+i[0m[0;34m23:08:04.107 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+k[0m[0;34m23:08:04.107 [main] DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+m[0m[0;34m23:08:04.108 [main] DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+h[0m[0;34m23:08:04.108 [main] DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+l[0m[0;34m23:08:04.108 [main] DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+‰[0m[0;34m23:08:04.108 [main] DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:postgresql://localhost:54320/
+h[0m[0;34m23:08:04.108 [main] DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+h[0m[0;34m23:08:04.108 [main] DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+n[0m[0;34m23:08:04.108 [main] DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+h[0m[0;34m23:08:04.108 [main] DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................3
+k[0m[0;34m23:08:04.109 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+k[0m[0;34m23:08:04.109 [main] DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+h[0m[0;34m23:08:04.109 [main] DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................3
+¨[0;34m23:08:04.109 [HikariPool-4 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@33e412b5
+o[0m[0;34m23:08:04.109 [main] DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+u[0m[0;34m23:08:04.109 [main] DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-8"
+l[0m[0;34m23:08:04.109 [main] DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+l[0m[0;34m23:08:04.109 [main] DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+k[0m[0;34m23:08:04.110 [main] DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+k[0m[0;34m23:08:04.110 [main] DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+o[0m[0;34m23:08:04.110 [main] DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+„[0m[0;34m23:08:04.110 [main] DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............"TRANSACTION_REPEATABLE_READ"
+q[0m[0;34m23:08:04.110 [main] DEBUG com.zaxxer.hikari.HikariConfig - username........................"postgres"
+k[0m[0;34m23:08:04.110 [main] DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+d[0m[0;34m23:08:04.110 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Starting...
+’[0m[0;34m23:08:04.115 [main] INFO com.zaxxer.hikari.pool.HikariPool - HikariPool-8 - Added connection org.postgresql.jdbc.PgConnection@5c8d046c
+i[0m[0;34m23:08:04.116 [main] INFO com.zaxxer.hikari.HikariDataSource - HikariPool-8 - Start completed.
+Í[0m[0;34m23:08:04.116 [main] DEBUG com.zaxxer.hikari.pool.ProxyConnection - HikariPool-8 - Executed rollback on connection org.postgresql.jdbc.PgConnection@5c8d046c due to dirty commit state on close().
+ [0m[0;34m23:08:04.120 [main] DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-8 - Reset (isolation) on connection org.postgresql.jdbc.PgConnection@5c8d046c
+V[0m[0;34m23:08:04.120 [main] INFO ktor.test - Application started in 0.018 seconds.
+¬[0m[0;34m23:08:04.127 [HikariPool-4 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - Added connection org.postgresql.jdbc.PgConnection@3d23eab9
+š[0;34m23:08:04.128 [HikariPool-5 housekeeper] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Pool stats (total=1, active=0, idle=1, waiting=0)
+¨[0;34m23:08:04.138 [HikariPool-5 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-5 - Added connection org.postgresql.jdbc.PgConnection@69fa1c2b
+«[0m[0;34m23:08:04.140 [HikariPool-4 connection adder] DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-4 - After adding stats (total=3, active=0, idle=3, waiting=0)
